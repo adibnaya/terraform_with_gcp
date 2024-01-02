@@ -1,0 +1,11 @@
+# Exclude .terraform directory
+**/.terraform/*
+
+# Exclude .terraform lock file
+infra/.terraform.lock.hcl
+
+# Exclude the key file
+key.json
+
+# Exclude local vars
+*.tfvars
