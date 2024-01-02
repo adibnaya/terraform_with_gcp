@@ -1,0 +1,6 @@
+gcp_svc_key = "../key.json"
+gcp_project = ""
+gcp_region = ""
+website_name = ""
+website_location = ""
+dns_managed_zone = ""
