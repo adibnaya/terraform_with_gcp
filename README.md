@@ -22,7 +22,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## SSL Certificate
 
-In case you want to enable SSL certificate for your website look inside of the main.tf file for the comments in the last 3 resources, you should uncomment the whole `Create HTTPS certificate` resource, and replace the commented line with the uncommented line in the last two resources: `GCP HTTP Proxy` and `GCP forwarding rule`
+In case you want to enable SSL certificate for your website look inside the main.tf file for the comments in the last 3 resources, you should uncomment the whole `Create HTTPS certificate` resource, and replace the commented line with the uncommented line in the last two resources: `GCP HTTP Proxy` and `GCP forwarding rule`
 
 ## Prerequisites
 
@@ -47,7 +47,7 @@ In case you want to enable SSL certificate for your website look inside of the m
     ```
     NOTE: After you clone the repo make sure to apply your personal details such as:
 	renaming the terraform.tfvars.example file to terraform.tfvars and modify it's content to your real values
-	download your GCP key file and create a file named "key.json" in the root directory of the project (Alternatively you can modify the name of the file in the terraform.tfvars file)
+	download your GCP key file and create a file named "key.json" in the root directory of the project (Alternatively you can modify the name of the file in terraform.tfvars file)
 
 2.  **Navigate to the project directory:**
 
@@ -85,7 +85,7 @@ In case you want to enable SSL certificate for your website look inside of the m
 
 ## Cleanup
 
-To revert all of the changes in your GCP accountuse the `terraform destroy` command
+To revert all the changes in your GCP account use the `terraform destroy` command
 
 	```bash
     terraform destroy
@@ -93,8 +93,8 @@ To revert all of the changes in your GCP accountuse the `terraform destroy` comm
 
 ## Folder Structure
 
-website: contains the index.html file wich represent the website
-infra: contains the configuraion files for terraform
+website: contains the index.html file which represent the website
+infra: contains the configuration files for terraform
 
 ## Contributing
 
