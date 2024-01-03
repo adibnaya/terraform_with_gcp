@@ -9,3 +9,10 @@ key.json
 
 # Exclude local vars
 *.tfvars
+
+# Exclude state files
+*.tfstate*
+infra/terraform.tfstate
+
+# Exclude IDE files
+.idea*
